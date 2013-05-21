@@ -38,4 +38,15 @@ Run your project.  If you are in branch "master" and your database is called "my
 
 Now, when you create databases in your dev environemnt, they will be called by dbname-branchname.  You can verify that by looking at your database list in Sql Server Enterprise Manager.
 
+Then, switch branches:
+
+    git checkout -b MyBranch
+    
+
+Then, compile and run your app again
+
+You should see a database called `myDb-MyBranch`.
+
+
+
 
