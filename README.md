@@ -1,4 +1,4 @@
 EntityFramework-BranchDb
 ========================
 
-Create databases per branch in Entity Framework and Git / Mercurial
+Easily create new EF databases per branch from Mercurial or Git
