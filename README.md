@@ -15,7 +15,7 @@ Automatically create a database for each branch you are in.  This database will 
 ## How to Use
 
 ### Install the Nuget Package
-`Install-Package
+` Install-Package EntityFramework-BranchDb`
 
 ### Modify your DbContext for your dev environment
 
