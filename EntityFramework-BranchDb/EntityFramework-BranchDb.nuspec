@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/SeedEquity/EntityFramework-BranchDb</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes>Initial Release</releaseNotes>
     <copyright>Copyright 2013</copyright>
     <tags>Entity-Framework</tags>
   </metadata>
