@@ -14,10 +14,10 @@ Automatically create a database for each branch you are in.  This database will 
 
 ## How to Use
 
-### Install the Nuget Package
+### Step 1 : Install the Nuget Package
 ` Install-Package EntityFramework-BranchDb`
 
-### Modify your DbContext for your dev environment
+### Step 2 : Modify your DbContext for your dev environment
 
 NOTE: This code snippet only works if you are using Debug builds.  You'll have to modify it as appropriate if this is not how you develop code.
 
@@ -31,3 +31,11 @@ NOTE: This code snippet only works if you are using Debug builds.  You'll have t
     
             }
     #endif
+
+### Step 3: Test it out
+
+Run your project.  If you are in branch "master" and your database is called "myDb", then you will be using a db called "myDb-master"
+
+Now, when you create databases in your dev environemnt, they will be called by dbname-branchname.  You can verify that by looking at your database list in Sql Server Enterprise Manager.
+
+
